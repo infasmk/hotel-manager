@@ -18,7 +18,7 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
         
         // Simulating realistic authentication delay
         setTimeout(() => {
-            if (password === 'infas1313') {
+            if (password === 'fb@5star') {
                 setError('');
                 sessionStorage.setItem('isAuthenticated', 'true');
                 onLogin();
